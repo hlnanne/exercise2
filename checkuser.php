@@ -1,6 +1,7 @@
 <?php // Example 26-6: checkuser.php
   require_once 'functions.php';
 
+  print_r($POST)
   if (isset($_POST['user']))
   {
     $user   = sanitizeString($_POST['user']);
